@@ -1,0 +1,12 @@
+.navbar-background{
+    background-image: linear-gradient(to left, #5c1bb1 0%, #3c0673  100%) !important; /*#014a4a  more apt:  #075878 or even more: #410778*/
+    /* background: transparent !important; */
+    /* background-color: #640acd !important;   */
+    height: 8vh;
+}
+
+@media screen and (max-width: 1300px) {
+    .navbar-background{
+      min-height: 12vh
+    }
+}

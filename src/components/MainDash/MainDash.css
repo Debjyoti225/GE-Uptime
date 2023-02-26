@@ -1,0 +1,40 @@
+.MainDash{
+    z-index: 1 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 22px;
+    padding-right: 22px;
+    grid-template-columns: auto 20rem;
+}
+.mainDashHeader{
+    z-index: 1;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to left,#C6426E 0%, #642B73 100%) !important;  
+    padding: 0.7rem 0;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .MainDash{
+        justify-content:space-evenly;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .MainDash{
+        align-items: center;
+    }
+    .mainDashHeader{
+        padding-left: 0px !important;
+    }
+}
