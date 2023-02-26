@@ -1,70 +1,12 @@
-# Getting Started with Create React App
+# GE Uptime
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GE Uptime is a condensed responsive web-app tool that provides monitoring services. The data fetched from the various data centers, routed through Azure clusters and containers, is visualized and monitored using a tertiary platform called Datadog. GE-Uptime-Dashboard, fetches the necessary information of the various customer dashboards and monitors and displays their respective uptimes.
 
-## Available Scripts
+The home tab displays the widgets of the established GE-Healthcare customers, each displaying their target uptimes and overall-monitoring periods. These widgets route the user to the dashboards of the respective customers for visualising the uptime of the services. The dashboard screen is sub-divided into 'Underlying SLOs' or Service Level Objectives and 'Associated Tables'. The SLO widgets constitute the dashboard as a whole. The data presented in each of these SLOs are calculated and dynamically determined values derived from the collective service uptimes of the associated monitors. On clicking the SLO widgets, the associated set of monitors with their respective details populates the Table below. The Table built using the Material UI, contains the Pagination functionality thereby allowing the user to customize the quantity of data displayed on the screens.
 
-In the project directory, you can run:
+Overall, the project was built to suit the requirement of the DevOps team at GE Healthcare to monitor the overall uptime of the services without the necessity of logging into the Datadog platform. Additionally, this web-application relieved the users from the necessity of creating a Datadog profile and acquiring different hierarchical permissions to visualise the same.
 
-### `yarn start`
+## Tech Stack highlights
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Following were the key tech-stacks explored in the course of building this project:
+React js, React-bootstrap, Particle js, MUI, JavaScript, CSS, Restful-API, json, datadog, Postman
