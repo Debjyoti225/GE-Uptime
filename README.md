@@ -15,4 +15,4 @@ Overall, the project was built to suit the requirement of the DevOps team at GE 
 ## Tech Stack highlights
 
 Following were the key tech-stacks explored in the course of building this project:
-React js, React-bootstrap, Particle js, MUI, JavaScript, CSS, Restful-API, json, datadog, Postman
+React js, React-bootstrap, Particle js, MUI, JavaScript, CSS, Restful-API, json, datadog, Postma
