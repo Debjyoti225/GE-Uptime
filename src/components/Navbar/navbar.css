@@ -2,8 +2,14 @@
     background-image: linear-gradient(to left, #5c1bb1 0%, #3c0673  100%) !important; /*#014a4a  more apt:  #075878 or even more: #410778*/
     /* background: transparent !important; */
     /* background-color: #640acd !important;   */
-    height: 8vh;
+    height: 11vh;
+    width: 100%;
+    /* padding: 0 0 !important; */
 }
+/* .container{
+  width: 100% !important;
+  margin: 0  7%!important;
+} */
 
 @media screen and (max-width: 1300px) {
     .navbar-background{
